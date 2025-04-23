@@ -1,0 +1,22 @@
+/* src/RoomsPage.css */
+.rooms-page {
+    padding: 40px;
+    text-align: center;
+    color: white;
+  }
+  
+  .room-list {
+    margin-top: 20px;
+  }
+  
+  .room-link {
+    font-size: 24px;
+    color: #87cefa;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .room-link:hover {
+    color: #ffffff;
+  }
+  

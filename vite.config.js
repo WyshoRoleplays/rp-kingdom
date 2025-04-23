@@ -7,4 +7,10 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
+  server: {
+    mimeTypes: {
+      'audio/mpeg': ['mp3'],
+      'audio/wav': ['wav']
+    }
+  }
 });

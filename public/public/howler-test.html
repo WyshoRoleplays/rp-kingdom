@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Howler Test</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+</head>
+<body style="background: #111; color: #eee; font-family: sans-serif; text-align: center; padding-top: 50px;">
+  <h1>🔊 Howler Sound Test</h1>
+  <button onclick="play()">Play Test Sound</button>
+
+  <script>
+    function play() {
+      new Howl({
+        src: ['/sounds/message.mp3', '/sounds/message.wav'],
+        volume: 1.0
+      }).play();
+    }
+  </script>
+</body>
+</html>
